@@ -8,7 +8,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"io/ioutil"
-	"log"
 	"os"
 	"sync"
 	"time"
@@ -62,7 +61,6 @@ func readJsonConfig(path string, result interface{}) error {
 	} else {
 		err := json.Unmarshal(data, result)
 		if err != nil {
-			log.Println("解析配置文件失败: " + err.Error())
 			return err
 		}
 		return nil
