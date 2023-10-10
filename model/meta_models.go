@@ -2,8 +2,8 @@ package model
 
 import (
 	"errors"
+	"github.com/MetaID-Labs/metaid-base-model/major"
 	"go.mongodb.org/mongo-driver/mongo"
-	"metaid-base-model/major"
 )
 
 const (

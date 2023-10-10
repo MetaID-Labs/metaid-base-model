@@ -1,4 +1,4 @@
-module metaid-base-model
+module github.com/MetaID-Labs/metaid-base-model
 
 go 1.20
 
