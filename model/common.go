@@ -9,7 +9,7 @@ const (
 
 // ContentType
 const (
-	TextPlain   = "text/plain" //纯文本
+	TextPlain   = "text/plain" //content
 	ImageUrl    = "image/url"
 	ImageJpg    = "image/jpg"
 	ImageJpeg   = "image/jpeg"
