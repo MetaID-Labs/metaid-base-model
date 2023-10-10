@@ -2,7 +2,7 @@
 
 What is metaid-base-model
 -------------------------
-This is a universal model for Metaid data, a comprehensive framework designed to store various Metaid data, encompassing fundamental Metaid details, attribute data related to Metaid, and more.
+This is a universal model for MetaID data, a comprehensive framework designed to store various MetaID data, encompassing fundamental MetaID details, attribute data related to MetaID, and more.
 
 ShowMAN's querying system primarily relies on this universal model for general inquiries.
 
@@ -10,14 +10,14 @@ How to use metaid-base-model
 ----------------------------
 By utilizing the metaid-base-model as a reference, you can implement fundamental operations on MetaAid data. These operations include on-chain data synchronization, data querying, data modification, and more.
 
-The metaid-base-model is a universal model for Metaid data, and it is not designed to be used directly. Instead, it is designed to be extended by other models. For example, the metaid-buzz-model is a model that extends the metaid-base-model, and it is designed to store buzz data.
+The metaid-base-model is a universal model for MetaID data, and it is not designed to be used directly. Instead, it is designed to be extended by other models. For example, the metaid-buzz-model is a model that extends the metaid-base-model, and it is designed to store buzz data.
 
 
 base-model-structure
 --------------------
 ```
 {
-    "ChainFlag": "",//string; This refers to the identifier of the blockchain where the Metaid data is hosted. For example, the identifier for the Microvisionchain is "mvc".
+    "ChainFlag": "",//string; This refers to the identifier of the blockchain where the MetaID data is hosted. For example, the identifier for the Microvisionchain is "mvc".
     "nodeId": "",//string; Retrieve it by concatenating the <publicKey> with the <txId> and then applying SHA256.
     "metanetId": "",//string; Retrieve it by concatenating the <publicKey> with the <parentTxId> and then applying SHA256. 
     "rootTxId": "",//string; txId of root node
