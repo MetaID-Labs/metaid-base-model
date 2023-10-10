@@ -1,0 +1,13 @@
+[
+  {
+    "DsName":"MetaIdRW",
+    "Debug":false,
+    "Addrs":"127.0.0.1:1234",
+    "Direct": false,
+    "TimeOut": 30,
+    "Database": "MetaIDData",
+    "UserName": "root",
+    "Password": "123456",
+    "PoolLimit": 100
+  }
+]
